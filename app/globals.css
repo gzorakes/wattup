@@ -53,7 +53,7 @@
   --shadow-md: 0px 0px 10px 3px hsl(68.8636 96.7033% 64.3137% / 0.1), 0px 2px 4px 2px hsl(68.8636 96.7033% 64.3137% / 0.1);
   --shadow-lg: 0px 0px 10px 3px hsl(68.8636 96.7033% 64.3137% / 0.1), 0px 4px 6px 2px hsl(68.8636 96.7033% 64.3137% / 0.1);
   --shadow-xl: 0px 0px 10px 3px hsl(68.8636 96.7033% 64.3137% / 0.1), 0px 8px 10px 2px hsl(68.8636 96.7033% 64.3137% / 0.1);
-  --shadow-2xl: 0px 0px 10px 3px hsl(68.8636 96.7033% 64.3137% / 0.25);
+  --shadow-2xl: 0px 0px 20px 5px hsl(68.8636 96.7033% 64.3137% / 0.25);
   --tracking-normal: 0.025em;
   --spacing: 0.25rem;
 }
