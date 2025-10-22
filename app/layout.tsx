@@ -25,12 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} bg-foreground p-3 antialiased`}>
-        <div className="bg-background max-w-7xl mx-auto rounded-4xl shadow-2xl p-4 ">
-          <header>
-            <Navbar />
-          </header>
-          <main>{children}</main>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} bg-foreground p-3 antialiased`}
+      >
+        <div className="bg-background mx-auto max-w-7xl rounded-4xl p-4 shadow-sm">
+          <Navbar />
+
+          {children}
         </div>
       </body>
     </html>
